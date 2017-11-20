@@ -1,0 +1,38 @@
+body {
+    background-color: #002a6b;
+    color: whitesmoke;
+}
+header {
+    text-align: center;
+}
+article {
+    text-align: center;
+}
+section{
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+}
+
+.Standings {
+    background: White;
+    color: #002a6b;
+    width: 160px;
+    height: 200px;
+    display: inline-block;
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    }
+.player-profile {
+    background: White;
+    color: #002a6b;
+    padding: 12px;
+    margin: 12px;
+}
+a { 
+    color: gold;
+}
+footer {
+    text-align: center;
+}
