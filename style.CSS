@@ -5,13 +5,33 @@ body {
 header {
     text-align: center;
 }
+
 article {
     text-align: center;
+    margin: 1%;
 }
+
+h1,h2{
+    background-color: whitesmoke;
+    text-align: center;
+    color: #002a6b;
+}
+
 section{
     display: inline-block;
     padding: 12px;
     text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.gif{
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+}
+.Schedule { 
+    line-height: 1.25;
 }
 
 .Standings {
@@ -24,15 +44,42 @@ section{
     margin: 12px;
     text-align: center;
     }
+    text-align: center;
+}
+#tab1 {
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    display: inline-block;
+}
+
+#tab2 {
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    display: inline-block;
+}
 .player-profile {
     background: White;
+    display: block;
     color: #002a6b;
     padding: 12px;
     margin: 12px;
 }
+.blocked { 
+    display: none;
+}
 a { 
     color: gold;
 }
+
+a:hover {
+    color:red;
+    font-size: 1.05em;
+}
+
 footer {
     text-align: center;
 }
