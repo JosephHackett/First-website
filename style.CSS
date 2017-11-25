@@ -43,7 +43,9 @@ section{
     padding: 12px;
     margin: 12px;
     text-align: center;
-    }
+}
+
+.tabs{
     text-align: center;
 }
 #tab1 {
@@ -61,6 +63,7 @@ section{
     color: black;
     display: inline-block;
 }
+
 .player-profile {
     background: White;
     display: block;

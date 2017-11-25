@@ -4,7 +4,7 @@ var playerpanels;
         
 window.onload = function () {
  //grab li elements 
-    playerlinks = Document.getElementByID("tabs").getElementsByTagName("li");
+    playerlinks = Document.getElementById("tabs").getElementsByTagName("li");
                    
     playerpanels = Document.getElementById("profiles").getElementsByTagName("div");
             
@@ -31,11 +31,11 @@ function displaypanel(TabToActivate) {
         if (playerlinks[i] == TabToActivate) {
              playerlinks[i].classList.add("active");
             // and display corresponding panel
-            playerpanels[i].style.display= "block";
+            playerpanels[i].style.display = "block";
         } else {
             playerlinks[i].classList.remove("active");
             // and display corresponding panel
-            playerpanels[i].style.display= "none";
+            playerpanels[i].style.display = "none";
         }
     }
 }
