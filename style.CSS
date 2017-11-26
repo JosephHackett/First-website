@@ -1,14 +1,22 @@
 body {
-    background-color: #002a6b;
+    background-color: dimgrey;
     color: whitesmoke;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 header {
     text-align: center;
+    background-color: #002a6b;
+    padding: 2px;
 }
 
 article {
     text-align: center;
     margin: 1%;
+    background-color: #002a6b;
+    
 }
 
 h1,h2{
@@ -45,22 +53,29 @@ section{
     text-align: center;
 }
 
+#players {
+    background-color: #002a6b;
+    padding: 2px;
+}
+
 .tabs{
     text-align: center;
 }
 #tab1 {
-    background-color: black;
+    background-color: #002a6b;
     text-align: center;
+    font-weight: bold;
     padding: 12px;
     color: black;
     display: inline-block;
 }
 
 #tab2 {
-    background-color: black;
+    background-color: #002a6b;
     text-align: center;
+    font-weight: bold;
     padding: 12px;
-    color: black;
+    color: ;
     display: inline-block;
 }
 
