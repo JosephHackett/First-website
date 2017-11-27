@@ -17,12 +17,18 @@ header {
     text-align: center;
     background-color: #002a6b;
     padding: 12px;
+    background-image: url(IMAGES/BEAVER_BACKGROUND.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 article {
     text-align: center;
     margin: 1%;
     background-color: #002a6b;
+    display: inline-flex;
+    
 
 }
 
