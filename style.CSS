@@ -93,6 +93,20 @@ button a {
     margin: 12px;
 }
 
+.STATS{
+    text-align: center;
+    font-size: 1.2em
+}
+
+.playerStats{
+    display: inline-block;
+}
+    
+table{
+    background-color: #002a6b;
+    color: whitesmoke;
+}
+
 .blocked { 
     display: none;
 }
