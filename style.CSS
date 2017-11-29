@@ -27,9 +27,6 @@ article {
     text-align: center;
     margin: 1%;
     background-color: #002a6b;
-    display: inline-flex;
-    
-
 }
 
 h1, h2{
@@ -47,19 +44,14 @@ section{
     font-weight: bold;
 }
 
-.gif{
-    text-align: center;
-    padding: 12px;
-    margin: 12px;
-}
-
 .Schedule { 
     line-height: 1.25;
+    float: Left;
 }
-
+.standings2{
+    float: Right;
+}
 .Standings {
-    background: White;
-    color: #002a6b;
     width: 160px;
     height: 200px;
     display: inline-block;
