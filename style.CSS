@@ -1,10 +1,14 @@
+/* General page 
+-----------------------------------------------*/
 body {
     background: linear-gradient(white, gray);
     color: whitesmoke;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Tahoma" , Verdana, sans-serif;
     font-size: 1em;
+    
 }
 
 
@@ -13,6 +17,26 @@ body {
     margin: 1%;
 }
 
+a { 
+    color: gold;
+}
+
+a:hover {
+    color:red;
+   font-style: italic;
+}
+
+footer {
+    text-align: center;
+}
+
+table{
+    background-color: #002a6b;
+    color: whitesmoke;
+}
+
+/* header 
+---------------------------------------------------*/
 header {
     text-align: center;
     background-color: #002a6b;
@@ -23,6 +47,8 @@ header {
     background-position: center;
 }
 
+/* Focused on sections before player profiles
+-------------------------------------------------*/
 article {
     text-align: center;
     margin: 1%;
@@ -37,20 +63,27 @@ h1, h2{
 }
 
 section{
-    display: inline-block;
     padding: 12px;
-    text-align: center;
-    font-family: serif;
-    font-weight: bold;
+    text-align: center;  
+}
+
+.FLEX{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .Schedule { 
     line-height: 1.25;
     float: Left;
+    
 }
+
 .standings2{
     float: Right;
+    display: inline-block;
 }
+
 .Standings {
     width: 160px;
     height: 200px;
@@ -60,9 +93,12 @@ section{
     text-align: center;
 }
 
+/* Player profile sections 
+-------------------------------------------------*/
 #players {
     background-color: #002a6b;
     padding: 2px;
+    clear: both;
 }
 
 .tabs{
@@ -93,31 +129,9 @@ button a {
 
 .STATS{
     text-align: center;
-    font-size: 1.2em
+    font-size: 1em
 }
 
 .playerStats{
     display: inline-block;
-}
-    
-table{
-    background-color: #002a6b;
-    color: whitesmoke;
-}
-
-.blocked { 
-    display: none;
-}
-
-a { 
-    color: gold;
-}
-
-a:hover {
-    color:red;
-   font-style: italic;
-}
-
-footer {
-    text-align: center;
 }
