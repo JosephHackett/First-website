@@ -1,5 +1,13 @@
 /* General page 
 -----------------------------------------------*/
+html{
+    box-sizing: border-box;   
+}
+
+*,*:before, *:after{
+    box-sizing:inherit;
+}
+
 body {
     background: linear-gradient(white, gray);
     color: whitesmoke;
@@ -15,6 +23,7 @@ body {
 .full-page{
     background-color: #002a6b;
     margin: 1%;
+    
 }
 
 a { 
@@ -33,6 +42,7 @@ footer {
 table{
     background-color: #002a6b;
     color: whitesmoke;
+
 }
 
 /* header 
@@ -76,9 +86,13 @@ section{
 .Schedule { 
     line-height: 1.25;
     float: Left;
+    outline-color: whitesmoke;
     
 }
 
+.Schedule tr:nth-child(odd){
+    background-color: gray;
+}
 .standings2{
     float: Right;
     display: inline-block;
@@ -134,4 +148,9 @@ button a {
 
 .playerStats{
     display: inline-block;
+    text-transform: capitalize;
+}
+
+.playerStats tr:nth-child(odd){
+    background-color: gray;   
 }
