@@ -1,0 +1,37 @@
+/*----Global Styles
+-------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+table{
+    /*Aligned using inline styles*/
+}
+
+/*----Header
+-----------*/
+header {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+/*----Section 1
+*--------------*/
+
+
+/*----Section 2 
+---------------*/
+.p_info{
+    
+}
+
+/*----Footer
+-----------*/
+footer {
+    text-align: center;
+}
